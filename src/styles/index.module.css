@@ -1,0 +1,17 @@
+.landing-card-container{
+	text-align: center;
+	white-space: nowrap;
+}
+
+.landing-header-menu{
+	position: relative;
+	width: 100%;
+	color: white;
+	text-align: right;
+	font-size: 3vh;
+	right: 20px;
+}
+
+.landing-header-menu > p{
+	margin: 0;
+}
