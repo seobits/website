@@ -1,0 +1,51 @@
+.menu-header{
+    width: 100%;
+    min-height: 50px;
+    height: 50px;
+    background-color: #6104a7;
+    overflow: visible;
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20pt;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.menu-header .logo{
+    background-color:black;
+    border: solid white 2px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 128px;
+    min-width: 128px;
+    height: 128px;
+    width: 128px;
+}
+
+.logo img{
+    height: 90%;
+}
+
+.menu-header .options{
+    position: relative;
+    right: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.options ul{
+    cursor: pointer;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.options ul li{
+    margin: 0 13px 0 13px;
+    display: inline-block;
+}
